@@ -1,0 +1,147 @@
+body {
+    background-image: url(img/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    
+}
+
+.dropbtn {
+    background-color: #f8e44d;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 200;
+    border: none;
+    height: 70px;
+    font-family: serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 70px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #b5b5b51e;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    font-size: 20px;
+
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #f8e44d;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #dfd16900;
+    font-size: 20px;
+    color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border: 3px solid rgb(249, 224, 29);
+}
+
+.head2 {
+    background-color: #f8e44d;
+    height: 70px;
+
+}
+
+header {
+    background-color: transparent;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+    padding-top: -10%;
+
+}
+
+.text1 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    font-family: serif;
+
+}
+
+.img1 {
+    width: 100%;
+    height: 400px;
+
+}
+
+.imagenes {
+    background-color: #f8bbd2;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+
+.chupachups {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 13px;
+}
+
+.vero {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+}
+
+.winis {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.lucas {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.img3 {
+    width: 100%;
+    height: 200px;
+
+}
+
+footer {
+    background-color: #fcea5d;
+    width: auto;
+    height: relative;
+    margin-top: 40px;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+}
